@@ -54,9 +54,7 @@ public class Address {
   }
 
   @Override public String toString() {
-    StringBuilder result = new StringBuilder();
-    result.append( street + ", " +  city + ", " +  state + " " +  zip);
-    return result.toString();
+      return street + ", " +  city + ", " +  state + " " +  zip;
   }
 
 }
