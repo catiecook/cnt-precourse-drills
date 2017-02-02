@@ -1,8 +1,9 @@
 package com.galvanize;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
+import java.util.List;
 
 interface Addressable {
-  public ArrayList<Address> getAddresses();
+  public List<Address> getAddresses();
   public void addAddress(Address address);
 }

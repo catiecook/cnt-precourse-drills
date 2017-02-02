@@ -1,10 +1,11 @@
 package com.galvanize;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
+import java.util.List;
 
 abstract class Business implements Addressable {
   private String name;
-  private ArrayList<Address> addresses;
+  private List<Address> addresses;
 
  //business constructor
   public Business(String name){
@@ -21,7 +22,7 @@ abstract class Business implements Addressable {
     addresses.add(address);
   }
 
-  public ArrayList<Address> getAddress() {
+  public List<Address> getAddress() {
     return addresses;
   }
 
