@@ -3,6 +3,7 @@ package com.galvanize;
 import java.util.ArrayList;
 
 public class Address {
+
   //instance variables
   private String street;
   private String city;
@@ -18,7 +19,6 @@ public class Address {
   }
 
   //getters
-
   public String getStreet() {
     return street;
   }
@@ -36,7 +36,6 @@ public class Address {
   }
 
   //setters
-
    public void setStreet(String street) {
      this.street = street;
   }
